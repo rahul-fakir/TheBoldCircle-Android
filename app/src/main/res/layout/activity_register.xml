@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rahulfakir.theboldcircle.UserData.RegisterActivity"
+    android:background="@color/white">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/imageView"
+        android:src="@mipmap/watermark_background"
+        android:scaleType="centerCrop"
+        tools:ignore="ContentDescription" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register_header"
+            android:id="@+id/textView"
+
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/colorPrimary"
+            android:textSize="25sp"
+            android:layout_marginTop="15dp"
+            tools:ignore="SpUsage" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:id="@+id/etFirstName"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="@mipmap/edit_text_background"
+            android:layout_marginTop="15dp"
+            android:hint="@string/first_name_placeholder"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/etSurname"
+            android:layout_below="@+id/etFirstName"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="@mipmap/edit_text_background"
+            android:layout_marginTop="5dp"
+            android:hint="@string/last_name_placeholder" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:id="@+id/etMobileNumber"
+            android:layout_below="@+id/etSurname"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="@mipmap/edit_text_background"
+            android:layout_marginTop="5dp"
+            android:hint="@string/phone_number_placeholder"
+            android:inputType="phone" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/etEmail"
+            android:layout_below="@+id/etMobileNumber"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="@mipmap/edit_text_background"
+            android:layout_marginTop="5dp"
+            android:hint="@string/email_placeholder" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/etConfirmEmail"
+            android:layout_below="@+id/etEmail"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="@mipmap/edit_text_background"
+            android:layout_marginTop="5dp"
+            android:hint="@string/confirm_email_placeholder" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:id="@+id/etPassword"
+            android:layout_below="@+id/etConfirmEmail"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="@mipmap/edit_text_background"
+            android:layout_marginTop="5dp"
+            android:hint="@string/password_placeholder"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/etConfirmPassword"
+            android:layout_below="@+id/etPassword"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="@mipmap/edit_text_background"
+            android:layout_marginTop="5dp"
+            android:hint="@string/confirm_password_placeholder" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="@string/register_header"
+            android:id="@+id/btnCreateProfile"
+            android:background="@drawable/primary_color_button"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_below="@+id/etConfirmPassword"
+            android:layout_alignRight="@+id/etConfirmPassword"
+            android:layout_alignEnd="@+id/etConfirmPassword"
+            android:layout_alignLeft="@+id/etConfirmPassword"
+            android:layout_alignStart="@+id/etConfirmPassword"
+            android:layout_marginTop="15dp" />
+
+        <ProgressBar
+            android:id="@+id/pbRegistrationStatus"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_below="@id/btnCreateProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:visibility="invisible" />
+
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rahulfakir.theboldcircle.LicensingActivity"
+    android:background="#FFFFFFFF">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/imageView"
+        android:src="@mipmap/watermark_background"
+        android:scaleType="centerCrop">
+
+    </ImageView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/imageView11"
+        android:layout_marginBottom="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="
+COMPANY OF HEROES 2
+BETA TEST END USER LICENSE AGREEMENT (“AGREEMENT”)
+
+BEFORE DOWNLOADING OR INSTALLING THIS SOFTWARE PLEASE CAREFULLY READ THE FOLLOWING AGREEMENT. BY CHECKING THE BOX BELOW LABELED 'I AGREE', YOU AGREE TO THE TERMS AND CONDITIONS OF THIS AGREEMENT, INCLUDING, WITHOUT LIMITATION, THE TERMS AND CONDITIONS GOVERNING THE DISCLOSURE OF CERTAIN PROPRIETARY AND CONFIDENTIAL INFORMATION ('CONFIDENTIAL INFORMATION') BY SEGA CORPORATION (“SEGA”). IF YOU DO NOT AGREE TO THE TERMS OF THIS AGREEMENT, DO NOT INSTALL OR DOWNLOAD THE SOFTWARE OR PROMPTLY DELETE THE SOFTWARE PROGRAM.\n\n
+
+You have been invited to play the Company of Heroes 2 (the “Game”) beta test for the sole purpose of evaluating the Game and identifying bugs (the “Beta Test”). Nothing in this Agreement, shall be interpreted as granting you any rights or privileges of any kind with respect to the Beta Test. The Game is provided on an 'as is' 'as available' basis and SEGA makes no warranty to you of any kind, express or implied. By accepting this Agreement, you agree that you are 18 years old or older.
+
+This pre-release version of the Game and any software programs or files that are provided to you (via on-line transmission or otherwise) including to 'patch,' or 'update’ (collectively, “Software”), as well as any on-line or electronic documentation (the 'Documentation'), and any and all copies and derivative works of such Software are the copyrighted work of SEGA. All use of the Game and Software is governed by the terms of this Agreement. The Game is distributed solely for use by authorized individuals who have received prior authorization from SEGA for purposes of testing the Game in accordance with the terms of this Agreement ('Beta Testers' or “You”). Any use, reproduction or redistribution of the Game not expressly authorized by the terms of this Agreement is expressly prohibited.\n\n
+
+Only Beta Testers are permitted to participate in the Beta Test, and anyone without such authorization is not eligible to enter into this Agreement. In consideration of SEGA's authorization for You to participate in the Beta Test, You agree to be bound by the following terms and conditions:\n\n
+
+1.	Agreement and Conditions of Use. You must accept this Agreement in order to access and play the Game.\n\n
+
+2.	Grant of a Limited Use License. SEGA hereby grants, and by installing the Game and Software You thereby accept, a limited, non-transferable, non-exclusive license and right to install and use one (1) copy of the Game and Software for Your personal use on Your computing device or hardware which You own or are under Your personal control.
+
+3.	Additional Terms.\n\n
+
+(a) When playing the Software, You may accumulate points, equipment, or other value or status indicators. This data may be reset at any time during the testing process, and it may be reset when the particular Software build, patch or update completes the testing phase;\n\n
+
+(b) By opting in to the Beta Test, You agree that: (i) beta testing is at Your own risk and that You know that the Software and/or Beta Test materials may include known or unknown bugs, (ii) any value or status indicators that You achieve through game play may be erased at any time, (iii) SEGA has no obligation to make the Software available for play without charge for any period of time, nor to make them available at all, and (iv) this Agreement will apply to Your use of the Software during the beta testing phase;\n\n
+
+(c) As part of the Beta Test, You may become privy to certain Confidential Information regarding the Software. This Confidential Information shall be held in strict confidence and shall not be disseminated or disclosed to any third party without the express written consent of SEGA. Disclosure of this Confidential Information without the express written consent of SEGA shall result in immediate termination of this Agreement ending Your participation in the Beta Test and Licensor shall pursue all remedies available under Section 12 below;\n\n
+
+(d) The Software may contain functions for collecting and tracking information related to Beta Testers’ use of the Software. You acknowledge that SEGA does and may collect data derived from Your playing of the Game and Software and SEGA reserves the right to compile, save, use and analyse such information. The collection and storage or the above data and game play is solely for the purposes of facilitating the existing functionality of the Game, assisting SEGA in assessing improvements to it and other games based on general playing patters and for digital management purposes.; and
+
+ (e) Beta Tester accounts are non-transferable under any circumstances.
+
+ (f) As part of the Beta Test, You may be asked to provide suggestions, comments, requests for noticeable bugs and other feedback with respect to the Software (“Feedback”). You hereby grant SEGA the worldwide, exclusive, transferable, perpetual, irrevocable, royalty-free, fully paid-up right to: (1) make, have made, use, copy, modify, and create derivative works of the Feedback as part of any SEGA product, technology, service, specification or documentation; (2) publicly perform or display, import, broadcast, transmit, distribute, license, offer to sell and sell, rent, lease or lend copies of the Feedback (and derivative works thereof and improvements thereon); and (3) sublicense to third parties the foregoing rights, including the right to sublicense to further third parties.
+
+4.	Ownership. YOU ACKNOWLEDGE AND AGREE THAT YOU SHALL HAVE NO OWNERSHIP OR OTHER PROPERTY INTEREST IN THE GAME AND SOFTWARE, AND YOU FURTHER ACKNOWLEDGE AND AGREE THAT ALL SUCH RIGHTS ARE AND SHALL FOREVER BE OWNED BY AND INURE TO THE BENEFIT OF SEGA. All title, ownership rights and intellectual property rights in and to the Game and Software, and all copies thereof (including but not limited to any titles, computer code, themes, objects, characters, character names, stories, dialog, catch phrases, locations, concepts, artwork, character inventories, structural or landscape designs, animations, sounds, musical compositions, audio-visual effects, methods of operation, moral rights, any related documentation, storylines, character likeness and 'applets' incorporated into the Game) and Confidential Information are owned or licensed by SEGA. The Game and Software are protected by UK copyright laws, international copyright treaties and conventions and other laws. All rights not expressly granted by SEGA under this Agreement are reserved by SEGA. The Game and/or Software may contain certain third party licensed materials and licensors of those third party materials may enforce their rights in the event of any violation of this Agreement by You.
+
+5.	Responsibilities of Beta Tester.\n\n
+
+(a) Subject to the Grant of License herein, You may not, in whole or in part, copy, reproduce, translate, reverse engineer, derive source code, modify, disassemble, decompile, or create derivative works based on the Software, or remove any proprietary notices on or in the Software. Failure to comply with the restrictions and limitations contained in this Section 5 shall result in the immediate, automatic termination of the license granted hereunder and may subject You to civil and/or criminal penalties.\n\n
+
+(b) You agree that You shall not, under any circumstances:\n\n
+
+(i) sell, grant a security interest in or transfer reproductions of the Software to other parties in any way not expressly authorized herein, nor shall You rent, lease or license the Software;\n\n
+
+(ii) transfer, sell or disclose to any person or entity other than SEGA any CD-key, serial number, activation code, or other unique identifier or means of authentication provided to You by SEGA;\n\n
+
+(iii) exploit the Game, or any of its parts, including but not limited to the Software, for any commercial purpose including, but not limited to, use at a cyber café, computer gaming center or any other location-based site.\n\n
+
+(iv) host, provide or develop matchmaking services for the Game or intercept, emulate or redirect the communication protocols used by SEGA in any way, including without limitation through protocol emulation, tunneling, packet sniffing, modifying or adding components to the Game, use of a utility program or any other techniques now known or hereafter developed, for any purpose including, but not limited to unauthorized network play over the Internet, network play utilizing commercial or non-commercial gaming networks or as part of content aggregation networks; or\n\n
+
+(v) create or maintain, under any circumstance, any unauthorized connections to the Game or the Software. All connections to the Game, whether created by the Software or by other tools and utilities, may only be made through methods and means expressly approved by SEGA and/or its third party licensors with respect to the Game (if any). Under no circumstances may You connect, or create tools that allow You or others to connect, to the Game's interface or interfaces other than those expressly provided for public use.\n\n
+
+ (c) You agree that any unauthorised use or disclosure of the Confidential Information shall cause SEGA irreparable harm for which its remedies at law would be inadequate. Accordingly, You agree that SEGA, in addition to any other available remedies, shall have the right to an immediate injunction and other equitable relief enjoining any breach or threatened breach of this Agreement, You shall notify SEGA in writing immediately if You have reason to believe that any person who has had access to the Confidential Information has violated or intends to violate the terms of this Agreement or otherwise disclose any of the Confidential Information in violation of the terms hereof. Any and all remedies herein expressly conferred upon SEGA will be deemed cumulative with and not exclusive of any other remedy conferred hereby, or by law or equity, and the exercise by SEGA of any one remedy will not preclude the exercise of any other remedy. Your
+
+6. Term of the Beta Test. The Game is an 'on-line' game that allows You to play the Game over the internet. SEGA may, at any time and in its sole discretion, terminate this Agreement and/or discontinue the operation or provision of the Game, or any online features or components, with or without notice. In any case, this Agreement will terminate immediately upon the end of the Beta Test.\n\n
+
+7. Termination. This License Agreement is effective until terminated. You may terminate this Agreement at any time by: (i) removing the Software from Your hard drive; and (ii) notifying SEGA of Your intention to terminate this License Agreement. SEGA may terminate this License Agreement at its sole discretion for any reason or no reason. In such event, You must immediately destroy the Game and remove the Software from Your hard drive. Upon termination of this Agreement for any reason, all licenses granted herein shall immediately terminate.\n\n
+
+8. Export Controls. The Software may not be downloaded or otherwise exported or re-exported into (or to a national or resident of) any country to which the U.S. has embargoed goods or to anyone on the U.S. Treasury Department list of Specially Designated Nationals or the U.S. Commerce Department's Table of Deny Orders. If You do not meet these criteria or are not sure, do not install the software. If You live in such a country, no license is granted hereunder.
+
+9. Patches and Updates. SEGA may deploy or provide patches, updates and modifications to the Software that must be installed for the user to continue to play the Game. SEGA may update the Software remotely, including without limitation the Software residing on the user's machine, without the knowledge or consent of the user, and You hereby grant to SEGA Your consent to deploy and apply such patches, updates and modifications to the Game.\n\n
+
+10. Limited Warranty. THE GAME, SOFTWARE AND DOCUMENTATION(S) ARE PROVIDED ON AN 'AS IS' AND “AS AVAILABLE” BASIS WITH ALL FAULTS AND WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, ANY IMPLIED WARRANTIES OF CONDITION, DEFECTS, USE, MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR USE, OR NONINFRINGEMENT. THE ENTIRE RISK ARISING OUT OF USE OR PERFORMANCE OF THE GAME, SOFTWARE AND DOCUMENTATION(S) REMAINS WITH THE USER. SEGA HEREBY DISCLAIMS ALL WARRANTIES AND CONDITIONS WITH RESPECT TO THE GAME SOFTWARE, EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF SATISFACTORY QUALITY, OF FITNESS FOR A PARTICULAR PURPOSE, OF ACCURACY, OF QUIET ENJOYMENT, AND NON-INFRINGEMENT OF THIRD PARTY RIGHTS. WITHOUT LIMITING THE FOREGOING, WE MAKE NO WARRANTY THAT (A) THE GAME AND SOFTWARE WILL BE UNINTERRUPTED, TIMELY, SECURE, OR ERROR-FREE, (B) THE GAME AND SOFTWARE WILL BE INTERAOPERABLE OR COMPATABILE WITH OTHER SOFTWARE, OR (C) THE RESULTS THAT MAY BE OBTAINED FROM THE USE OF THE GAME AND SOFTWARE WILL BE EFFECTIVE, ACCURATE OR RELIABLE. NO ORAL OR WRITTEN INFORMATION OR ADVICE GIVEN BY SEGA OR ITS AUTHORIZED REPRESENTATIVE(S) SHALL CREATE A WARRANTY. SOME STATES DO NOT ALLOW THE EXCLUSION OR LIMITATION OF IMPLIED WARRANTIES OR LIABILITY FOR INCIDENTAL DAMAGES, SO THE ABOVE LIMITATIONS MAY NOT APPLY TO YOU.\n\n
+
+11. Limitation of Liability. NEITHER SEGA, NOR SUBSIDIARIES OR AFFILIATES SHALL BE LIABLE IN ANY WAY FOR LOSS OR DAMAGE OF ANY KIND RESULTING FROM THE USE OF THE GAME INCLUDING, BUT NOT LIMITED TO, LOSS OF DATA, LOSS OF GOODWILL, WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES OR LOSSES. ANY WARRANTY AGAINST INFRINGEMENT THAT MAY BE PROVIDED IN SECTION 2-312(3) OF THE UNIFORM COMMERCIAL CODE AND/OR IN ANY OTHER COMPARABLE STATE STATUTE IS EXPRESSLY DISCLAIMED. FURTHER, SEGA SHALL NOT BE LIABLE IN ANY WAY FOR THE LOSS OR DAMAGE TO PLAYER CHARACTERS, ACCOUNTS, STATISTICS OR USER PROFILE INFORMATION STORED BY THE GAME AND/OR THE SERVICE. SEGA SHALL NOT BE RESPONSIBLE FOR ANY INTERRUPTIONS OF SERVICE INCLUDING, BUT NOT LIMITED TO ISP DISRUPTIONS, SOFTWARE OR HARDWARE FAILURES OR ANY OTHER EVENT WHICH MAY RESULT IN A LOSS OF DATA OR DISRUPTION OF SERVICE. IN NO EVENT WILL SEGA OR ITS SUBSIDIARIES OR AFFILIATES BE LIABLE TO YOU FOR ANY INDIRECT, PUNITIVE, INCIDENTAL, SPECIAL, EXEMPLARY OR CONSEQUENTIAL DAMAGES. Some states do not allow the exclusion or limitation of incidental or consequential damages, or allow limitations on how long an implied warranty lasts, so the above limitations may not apply to you.\n\n
+
+12. Equitable Remedies. You hereby agree that SEGA would be irreparably damaged if the terms of this License Agreement were not specifically enforced, and therefore You agree that SEGA shall be entitled, without bond, other security, or proof of damages, to appropriate equitable remedies with respect to breaches of this License Agreement, in addition to such other remedies as SEGA may otherwise have available to it under applicable laws. In the event any litigation is brought by either party in connection with this License Agreement, the prevailing party in such litigation shall be entitled to recover from the other party all the costs, attorneys' fees and other expenses incurred by such prevailing party in the litigation.\n\n
+
+13. Indemnity. At SEGA's request, You agree to defend, indemnify and hold harmless SEGA, its subsidiaries, affiliates, contractors, officers, directors, employees, agents, licensors, licensees, distributors, developers, content providers, and other users of the Software, from all damages, losses, liabilities, claims and expenses, including attorneys' fees, arising directly or indirectly from Your acts and omissions to act in using the Software pursuant to the terms of this License Agreement or any breach of this License Agreement by You. SEGA reserves the right, at its own expense, to assume the exclusive defense and control of any matter otherwise subject to indemnification by You hereunder, and in such event, You shall have no further obligation to provide indemnification for such matter.
+
+14. Miscellaneous. This Agreement constitutes the entire agreement between the parties with respect to the subject matter hereof and supersedes all prior agreement and representations, warranties or understandings between You and SEGA. It can be modified at any time by SEGA at its sole discretion. SEGA may assign this Agreement, in whole or in part, at any time. Notwithstanding, You may not assign, transfer or sublicense any or all of Your rights or obligations under the Agreement without SEGA’s express prior written consent. None of the provisions of this Agreement shall be deemed to have been waived by any act or acquiescence on the part of SEGA, its agents, or employees, but only by an instrument in writing signed by an authorized officer of SEGA. No waiver of any provision of this Agreement shall constitute a waiver of any other provision(s) or of the same provision on another occasion. This Agreement shall be construed under laws of England Wales, and you consent to the exclusive jurisdiction of the English Courts. If any provision of this Agreement shall be held by a court of competent jurisdiction to be illegal, invalid or unenforceable, then the invalid or unenforceable provision will be deemed superseded by a valid, enforceable provision that most closely matches the intent of the original provision and the remaining provisions of the Agreement shall remain in full force and effect. You may contact SEGA at the following address:
+Sega Europe Limited
+Customer Service Department
+27 Great West Road
+Brentford
+Middlesex
+TW8 9BW
+ Email: customersupportuk@sega.co.uk"
+            android:id="@+id/textView23"
+            android:padding="10dp" />
+    </ScrollView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView11"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/company_logo"
+        android:scaleType="matrix"
+
+        android:layout_marginBottom="20dp" />
+
+</RelativeLayout>

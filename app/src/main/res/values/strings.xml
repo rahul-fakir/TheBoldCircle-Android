@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">The Bold Circle</string>
+    <string name="company_name">The Bold Circle</string>
+
+    <!-- Log In Activity -->
+    <string name="login_header">Log In</string>
+    <string name="email_placeholder">E-mail Address</string>
+    <string name="password_placeholder">Password</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="persist_session">Remember Me</string>
+    <string name="create_account_link">New User? Create Account</string>
+
+    <!-- Register Activity -->
+    <string name="register_header">Create Profile</string>
+    <string name="first_name_placeholder">First Name</string>
+    <string name="last_name_placeholder">Last Name</string>
+    <string name="confirm_email_placeholder">Confirm E-Mail</string>
+    <string name="confirm_password_placeholder">Confirm Password</string>
+    <string name="phone_number_placeholder">Mobile Number</string>
+
+    <!-- Forgot Password Activity -->
+    <string name="reset_password_header">Reset Password</string>
+    <string name="title_activity_home_screen">Welcome</string>
+
+    <!-- Homescreen Activity -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="specials_placeholder">Specials</string>
+    <string name="online_store_placeholder">Place Order/Make Booking</string>
+    <string name="call_us_placeholder">Call Us</string>
+    <string name="store_locator_placeholder">Locate Nearest Store</string>
+    <string name="title_activity_store_location">Map</string>
+
+</resources>
+
+

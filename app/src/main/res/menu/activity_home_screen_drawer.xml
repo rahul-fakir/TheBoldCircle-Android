@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+
+            android:title="PROFILE"
+            />
+        <item
+            android:id="@+id/nav_rewards"
+
+            android:title="REWARDS" />
+        <item
+            android:id="@+id/nav_services_products"
+
+            android:title="SERVICES/PRODUCTS" />
+        <item
+            android:id="@+id/nav_contact"
+
+            android:title="GET IN TOUCH" />
+        <item
+            android:id="@+id/nav_license"
+
+            android:title="T&amp;C's" />
+        <item
+            android:id="@+id/nav_share"
+
+            android:title="SHARE" />
+    </group>
+
+
+</menu>

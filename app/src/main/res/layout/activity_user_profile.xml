@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.rahulfakir.theboldcircle.UserData.UserProfile"
+android:background="#FFFFFFFF">
+<ImageView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/imageView"
+    android:src="@mipmap/watermark_background"
+    android:scaleType="centerCrop" >
+
+</ImageView>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:visibility="visible">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Personal Details"
+                android:id="@+id/textView9"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="E-mail Address:"
+                android:id="@+id/textView13"
+                android:layout_below="@id/textView9"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="rahul.fakir@gmail.com"
+                android:id="@+id/tvEmail"
+                android:layout_alignTop="@+id/textView13"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="First Name:"
+                android:id="@+id/textView29"
+                android:layout_below="@+id/textView13"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:id="@+id/etFirstName"
+                android:background="@mipmap/edit_text_background"
+                android:layout_below="@+id/textView29"
+                android:layout_alignRight="@+id/tvEmail"
+                android:layout_alignEnd="@+id/tvEmail"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:padding="10dp"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Last Name:"
+                android:id="@+id/textView30"
+
+                android:layout_below="@id/etFirstName"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/etSurname"
+                android:layout_below="@+id/textView30"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/etFirstName"
+                android:layout_alignEnd="@+id/etFirstName"
+                android:background="@mipmap/edit_text_background"
+                android:padding="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Phone Number:"
+                android:id="@+id/textView31"
+                android:layout_below="@+id/etSurname"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:inputType="phone"
+                android:ems="10"
+                android:id="@+id/etPhoneNumber"
+                android:layout_below="@+id/textView31"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:background="@mipmap/edit_text_background"
+                android:padding="10dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:visibility="visible">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Purchasing Options:"
+                android:id="@+id/textView32"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Shipping Address:"
+                android:id="@+id/textView33"
+                android:layout_below="@id/textView32"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:inputType="textPostalAddress"
+                android:ems="10"
+                android:id="@+id/etAddressOne"
+                android:layout_below="@id/textView33"
+
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:background="@mipmap/edit_text_background"
+                android:layout_marginTop="5dp"
+                android:padding="10dp"
+                android:hint="Address Line 1" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:inputType="textPostalAddress"
+                android:ems="10"
+                android:id="@+id/etAddressTwo"
+                android:layout_below="@+id/etAddressOne"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/etAddressOne"
+                android:layout_alignEnd="@+id/etAddressOne"
+                android:background="@mipmap/edit_text_background"
+                android:layout_marginTop="5dp"
+                android:padding="10dp"
+                android:hint="Address Line 2" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:inputType="textPostalAddress"
+                android:ems="10"
+                android:id="@+id/etCity"
+                android:layout_below="@id/etAddressTwo"
+                android:background="@mipmap/edit_text_background"
+                android:layout_marginTop="5dp"
+                android:padding="10dp"
+                android:layout_marginRight="150dp"
+                android:hint="City" />
+
+            <EditText
+                android:layout_width="140dp"
+                android:layout_height="40dp"
+                android:inputType="textPostalAddress"
+                android:ems="10"
+                android:id="@+id/etProvince"
+                android:layout_alignBottom="@+id/etCity"
+                android:layout_alignRight="@+id/etAddressTwo"
+                android:layout_alignEnd="@+id/etAddressTwo"
+                android:background="@mipmap/edit_text_background"
+                android:layout_marginTop="5dp"
+                android:padding="10dp"
+                android:hint="Province" />
+
+            <EditText
+                android:layout_width="140dp"
+                android:layout_height="40dp"
+                android:inputType="textPostalAddress"
+                android:ems="10"
+                android:id="@+id/etZipCode"
+                android:layout_below="@+id/etCity"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="@mipmap/edit_text_background"
+                android:layout_marginTop="5dp"
+                android:padding="10dp"
+                android:hint="Zip Code" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/etCountry"
+                android:padding="10dp"
+                android:layout_alignParentLeft="false"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/etProvince"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="150dp"
+                android:background="@mipmap/edit_text_background"
+                android:hint="Country" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Default Store:"
+                android:id="@+id/textView34"
+                android:layout_below="@id/etZipCode"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold" />
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/cvSpecials"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardCornerRadius="0dp"
+                android:layout_below="@id/textView34"
+                android:layout_alignParentBottom="false"
+                android:layout_marginTop="10dp"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp">
+
+                    <Spinner
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/spnStores"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginBottom="5dp" />
+
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:visibility="visible"
+            android:layout_marginBottom="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Password Confirmation"
+                android:id="@+id/textView41"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Please eneter your password to confirm changes:"
+                android:id="@+id/textView42"
+                android:layout_below="@+id/textView41"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="5dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/etPassword"
+                android:layout_below="@+id/textView42"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="@mipmap/edit_text_background"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"/>
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:text="Update Profile"
+                android:id="@+id/btnUpdateProfile"
+                android:layout_below="@id/etPassword"
+                android:background="@drawable/primary_color_button"
+
+                android:layout_marginTop="10dp"
+                android:layout_alignParentRight="true"
+                android:textColor="#FFFFFFFF" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>
+
+
+</RelativeLayout>

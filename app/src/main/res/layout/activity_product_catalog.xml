@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_product_catalog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rahulfakir.theboldcircle.ProductData.ProductCatalogActivity"
+    android:background="@color/white">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/imageView"
+        android:src="@mipmap/watermark_background"
+        android:scaleType="centerCrop" >
+
+    </ImageView>
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cvSpecials"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        card_view:cardCornerRadius="0dp"
+        android:layout_margin="20dp"
+        android:layout_alignParentBottom="false">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/header">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:id="@+id/imgDivider"
+
+                android:src="@mipmap/divider_icon"
+                android:scaleType="fitXY"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgDivider"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/llytCategoriesFirstLevel"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="/"
+                    android:id="@+id/tvDivider0"
+                    android:layout_toRightOf="@+id/tvAllCategories"
+                    android:layout_toEndOf="@+id/tvAllCategories"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#636363" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:id="@+id/tvCategory1"
+                    android:layout_toRightOf="@+id/tvDivider0"
+                    android:layout_toEndOf="@+id/tvDivider0"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#636363"
+                    android:visibility="visible"
+                    android:clickable="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="/"
+                    android:id="@+id/tvDivider1"
+                    android:layout_toRightOf="@+id/tvCategory1"
+                    android:layout_toEndOf="@+id/tvCategory1"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#636363"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Category 2"
+                    android:id="@+id/tvCategory2"
+                    android:layout_toRightOf="@+id/tvDivider1"
+                    android:layout_toEndOf="@+id/tvDivider1"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#636363"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="/"
+                    android:id="@+id/tvDivider2"
+                    android:layout_toRightOf="@+id/tvCategory2"
+                    android:layout_toEndOf="@+id/tvCategory2"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#636363"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Category 3"
+                    android:id="@+id/tvCategory3"
+                    android:layout_toRightOf="@+id/tvDivider2"
+                    android:layout_toEndOf="@+id/tvDivider2"
+                    android:layout_marginTop="5dp"
+                    android:visibility="gone"
+                    android:textColor="#636363" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/llytCategoriesFirstLevel"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="3dp"
+                android:id="@+id/llytCategoriesSecondLevel"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Categroy 4"
+                    android:id="@+id/tvCategory4"
+                    android:textColor="#636363"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="/"
+                    android:id="@+id/tvDivider3"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#636363"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="View More"
+                    android:id="@+id/tvExpandCategories"
+                    android:textColor="#636363"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:id="@+id/imageView4"
+                android:src="@mipmap/divider_icon"
+                android:layout_below="@+id/llytCategoriesSecondLevel"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:id="@+id/imageView5"
+                android:layout_below="@+id/imageView4"
+                android:layout_alignLeft="@+id/imageView4"
+                android:layout_alignStart="@+id/imageView4"
+                android:src="@mipmap/calendar_icon"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:id="@+id/imageView7"
+                android:src="@mipmap/divider_icon"
+                android:scaleType="fitXY"
+                android:layout_below="@+id/imageView5"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp" />
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:id="@+id/imageView6"
+                android:src="@mipmap/phone_icon"
+                android:layout_above="@+id/imageView7"
+                android:layout_toRightOf="@+id/imageView5"
+                android:layout_toEndOf="@+id/imageView5"
+                android:layout_marginLeft="11dp"
+                android:layout_marginStart="11dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Pantene -> Hair Products"
+                android:id="@+id/tvAllCategories"
+                android:textColor="#72bf44"
+                android:textStyle="bold"
+                android:layout_alignTop="@+id/llytCategoriesFirstLevel"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Submit Selection"
+                android:id="@+id/tvSubmitProducts"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_marginRight="10dp"
+                android:textColor="#72bf44"
+                android:textStyle="bold"
+                android:layout_marginEnd="10dp"
+                android:layout_above="@+id/imageView7"
+                android:layout_alignRight="@+id/imageView7"
+                android:layout_alignEnd="@+id/imageView7"
+                android:layout_marginBottom="7dp" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/productsLoadingPanel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:visibility="gone">
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:indeterminate="true" />
+        </RelativeLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+          android:layout_below="@id/header"
+            android:scrollbars="vertical"
+            android:padding="5dp" />
+
+</RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+
+</RelativeLayout>
